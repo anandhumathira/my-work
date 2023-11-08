@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Personel site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      /* Responsive CSS */
+      .carousel-caption h1,
+      .carousel-caption h2 {
+          font-size: 3rem; /* Adjust the font size for h1 and h2 as needed for different screen sizes */
+      }
+
+      .carousel-caption h3 {
+          font-size: 2rem; /* Adjust the font size for h3 */
+      }
+
+      .carousel-caption .btn {
+          padding: 0.5rem 1.5rem; /* Adjust button padding */
+          font-size: 1.2rem; /* Adjust button font size */
+      }
+
+      @media (max-width: 576px) {
+          /* Additional CSS adjustments for smaller screens */
+          .carousel-caption h1,
+          .carousel-caption h2 {
+              font-size: 1.5rem;
+          }
+
+          .carousel-caption h3 {
+              font-size: 1rem;
+          }
+
+          .carousel-caption .btn {
+              padding: 0.4rem 1.2rem;
+              font-size: 1rem;
+          }
+          .img-fluid1 {
+              height: 400px;
+          }
+      }
+      
+  </style>
+</head>
+<body>
+<!--carousel  -->
+
+        <section id="home">
+        <nav class="navbar  fixed-top p-0">
+            <div class="container ">
+              <a class="navbar-brand" href="#"><img src="img/logo (1).png" width="100"  height="100"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <a class="navbar-brand" href="#"><img src="img/logo (1).png" width="100"  height="100"></a>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1">
+                    <li class="nav-item">
+                      <a class="nav-link"  href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide p-0" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="100">
+                <img src="img/img1.jpg" class="d-block w-100 img-fluid img-fluid1" alt="...">
+                <div class="carousel-caption text-center">
+                  <h3 style="font-family: 'Shadows Into Light', cursive; color: white;" class="">Hi, this is</h3>
+                  <h1 style="color: white;" class="">TOM SAULNIER</h1>
+                  <h2 style="font-family: 'Shadows Into Light', cursive; color: white;" class="">Front-end Web Developer and Graphic Designer</h2>
+                  <div class="container text-center">
+                    <a class="btn btn-outline-info me-1 rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-danger me-1 rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-info me-1 rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-danger me-1 rounded-circle" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-info me-0 rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <button class="btn btn-info btn-lg mt-3 mb-2 text-center">GET A FREE QUOTE</button>
+                </div>                
+              </div>
+              
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/img2.jpg" class="d-block w-100 img-fluid img-fluid1" alt="...">
+                <div class="carousel-caption text-center">
+                  <h3 style="font-family: 'Shadows Into Light', cursive; color: white;">Hi, this is</h3>
+                  <h1 style="color: white;" class="">TOM SAULNIER</h1>
+                  <h2 style="font-family: 'Shadows Into Light', cursive; color: white;">Front-end Web Developer and Graphic Designer</h2>
+                  <div class="container text-center">
+                    <a class="btn btn-outline-info me-1 rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-danger me-1 rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-info me-1 rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-danger me-1 rounded-circle" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-info me-0 rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <button class="btn btn-info btn-lg mt-3 mb-2 text-center">GET A FREE QUOTE</button>
+                </div>                
+              </div>
+              
+              <div class="carousel-item">
+                <img src="img/img3.jpg" class="d-block w-100 img-fluid img-fluid1" alt="...">
+                <div class="carousel-caption text-center">
+                  <h3 style="font-family: 'Shadows Into Light', cursive; color: white;" class="">Hi, this is</h3>
+                  <h1 style="color: white;" class="">TOM SAULNIER</h1>
+                  <h2 style="font-family: 'Shadows Into Light', cursive; color: white;" class="">Front-end Web Developer and Graphic Designer</h2>
+                  <div class="container text-center">
+                    <a class="btn btn-outline-info me-1 rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-danger me-1 rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-info me-1 rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-danger me-1 rounded-circle" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-info me-0 rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <button class="btn btn-info btn-lg mt-3 mb-2 text-center">GET A FREE QUOTE</button>
+                </div>    
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- -->
+<!-- about -->
+<section id="about">
+    
+        <div class="container-fluid mt-2" style="background: whitesmoke;">
+        <div class="row"  style="background: whitesmoke;">
+    
+            <div class="col-md-6 text-center mt-5">
+              <img src="img/about-1.jpg" alt="" class="text-center img-fluid" style="border: 20px solid white;">
+            </div>
+            
+            <div class="col-md-6">
+                <h1 class="text-center">Hi Guys!</h1>
+               <h3> <p style="font-weight:400;
+                font-family: source sans pro,sans-serif;
+                margin: 0;
+                font-size: 25px;">Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et rutrum eleifend sollicitudin lacinia justo id turpis. Nec convallis integer. Odio eget duis. Nulla aenean et. Blandit varius sollicitudin. Pellentesque leo primis neque urna magnis. Elit ut sollicitudin. Et est a nam dolores eget itaque sagittis et parturient duis est eleifend sociis rutrum odio viverra integer</p>
+               </h3>
+           <div class="container">   <h5>  <p> <strong>Name  : </strong>Tom Saulnier</p>
+            <p> <strong>Age  : </strong>25 Years</p>
+            <p> <strong>Experience  : </strong>4 Years</p>
+            <p> <strong>Country  : </strong>USA</p>
+            <p> <strong>Location  : </strong>San Francisco, CA</p>
+            <p> <strong> e-mail  : </strong>email@example.com</p>
+            <p> <strong>Phone  : </strong>+ (00) 123 456 789</p>
+            <p> <strong>Freelance  : </strong>Available</p>
+          </h5>
+          </div>
+               
+               <button class="btn btn-info btn-lg"><i class="fa-solid fa-paperclip"></i></i>DOWNLOAD RESUME </button>
+               <button class="btn btn-danger btn-lg"><i class="fa-solid fa-comment"></i>MESSAGE ME</button>
+            </div>
+      </div>
+    </div>
+    </section>
+<!--  -->
+
+        <!-- service -->
+        <section id="services">
+          <div class="container-fluid" style="background-color: #f0f0f0;">
+              <div class="row">
+                  <h1 class="text-center mt-5">What I do</h1>
+  
+                  <div class="col-md-3 text-center d-flex justify-content-center mt-5 mb-5">
+                      <div class="card" style="width: 25rem;">
+                          <div class="card-body text-center">
+                              <i class="fas fa-qrcode fa-3x mt-5" style="color: #6492e1;"></i>
+                              <h5 class="card-title">FRONT-END DEVELOPMENT</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                  condi.</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-3 text-center d-flex justify-content-center mt-5 mb-5">
+                      <div class="card" style="width: 25rem;">
+                          <div class="card-body text-center">
+                              <i class="fas fa-layer-group fa-3x mt-5" style="color: #6492e1;"></i>
+                              <h5 class="card-title">GRAPHIC DESIGN</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                  condi.</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-3 text-center d-flex justify-content-center mt-5 mb-5">
+                      <div class="card" style="width: 25rem;">
+                          <div class="card-body text-center">
+                              <i class="fas fa-briefcase fa-3x mt-5" style="color: #6492e1;"></i>
+                              <h5 class="card-title">BUSINESS BRANDING</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                  condi.</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-3 text-center d-flex justify-content-center mt-5 mb-5">
+                      <div class="card" style="width: 25rem;">
+                          <div class="card-body text-center">
+                              <i class="fas fa-comments fa-3x mt-5" style="color: #6492e1;"></i>
+                              <h5 class="card-title">CONSULTANCY</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                                  condi.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+ <!--  -->
+ <!-- resume -->
+ <section id="resume">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6 justify-content-center mt-5 mb-4">
+      
+      <h1 class="mb-4"><i class="fa-solid fa-graduation-cap"></i> &nbsp;EDUCATION</h1>
+  
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title"> <strong>Bsc In CSE - Yale University</strong></h5>
+          <p class="card-text"><br>2012 - 2016<br><br>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+          
+        </div>
+      </div>
+  
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Higher Secondary School - San Francisco College</strong></h5>
+          <p class="card-text"><br>2010 - 2012<br><br>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+          
+        </div>
+      </div>
+  
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Secondary School - Labratory High School</strong></h5>
+          <p class="card-text"><br>2005 - 2010<br><br>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+         
+        </div>
+      </div>
+  
+     
+  
+    </div>
+  
+  
+    <div class="col-md-6 justify-content-center  mt-5 mb-4">
+      <h1 class="mb-4"><i class="fa-solid fa-briefcase"></i>&nbsp;EXPERIENCE</h1>
+  
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Art Director - Tesla Inc.</strong></h5>
+          <p class="card-text"><br>Jan 2018 - Present<br><br>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+          
+        </div>
+      </div>
+  
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>UX/UI Designer - Samsung</strong></h5>
+          <p class="card-text"><br>Nov 2016 - Dec 2017 <br><br>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+         
+        </div>
+      </div>
+  
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title"><strong>Intern UI Designer - UIdeck</strong></h5>
+          <p class="card-text"><br>Mar 2015 - Oct 2016<br><br>Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+          
+        </div>
+      </div>
+  
+    </div>
+  
+    
+  
+  </div>
+  </div>
+  </section>
+
+ <!--  -->
+
+ <!--work  -->
+ <section id="work">
+<div style="background-color: #f0f0f0;">
+  <div class="container"><br><br>
+    <h1 class="text-center">My Remarkable Works</h1>
+    <div class="container text-center mt-5 g-2">
+      <button class="btn btn-outline-info btn-xl">ALL</button>
+      <button class="btn btn-info btn-xl">Design</button>
+      <button class="btn btn-info btn-xl">DEVELOPMENT</button>
+      <button class="btn btn-info btn-xl">PRINT</button>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-4 justify-content-center">
+        <img src="img/img-1.jpg" alt="" style="border: 10px solid white;" class="img-fluid mb-3">
+      </div>
+
+      <div class="col-md-4 justify-content-center">
+        <img src="img/img-2.jpg" alt="" style="border: 10px solid white;" class="img-fluid mb-3">
+      </div>
+
+      <div class="col-md-4 justify-content-center">
+        <img src="img/img-3.jpg" alt="" style="border: 10px solid white;" class="img-fluid mb-3">
+      </div>
+
+      <div class="col-md-4 justify-content-center">
+        <img src="img/img-4.jpg" alt="" style="border: 10px solid white;" class="img-fluid">
+      </div>
+
+      <div class="col-md-4 justify-content-center">
+        <img src="img/img-5.jpg" alt="" style="border: 10px solid white;" class="img-fluid">
+      </div>
+
+      <div class="col-md-4 justify-content-center">
+        <img src="img/img-6.jpg" alt="" style="border: 10px solid white;" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 justify-content-center offset-md-4" style="margin-top: 40px;">
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+ <!--  -->
+ <div style="background-image: url(img/bg-1.jpg); padding: 50px;" class="img-fluid">
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+
+      <div class="col-md-3 col-sm-12 text-center">
+        <div class="card" style="width: 18rem; border: none; background: transparent;">
+          <h1><i class="fa-solid fa-briefcase" style="color: #6492e1;"></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">250</h5>
+            <p class="card-text">Project Working</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12 text-center">
+        <div class="card" style="width: 18rem; border: none; background: transparent;">
+          <h1><i class="fa-regular fa-circle-check" style="color: #6492e1;"></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">950</h5>
+            <p class="card-text">Project Done</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12 text-center">
+        <div class="card" style="width: 18rem; border: none; background: transparent;">
+          <h1><i class="fa-solid fa-gem" style="color: #6492e1;"></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">150</h5>
+            <p class="card-text">Awards Received</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12 text-center">
+        <div class="card" style="width: 18rem; border: none; background: transparent;">
+          <h1><i class="fa-solid fa-heart" style="color: #6492e1;"></i></h1>
+          <div class="card-body">
+            <h5 class="card-title">299</h5>
+            <p class="card-text">Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!--  -->
+ <section id="contact">
+  <div style="background-color: #f0f0f0; padding: 20px;">
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="background-color: white; padding: 20px;">
+  
+                    <h4 class="mt-5">CONTACT FORM</h4>
+  
+                    <form class="row g-3 needs-validation" novalidate>
+                  
+                      <div class="col-md-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                          Please enter a name
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                  
+                        <label for="email" class="form-label">Email Id</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          <input type="text" class="form-control" id="email" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="Subject" class="form-label">Subject</label>
+                        <input type="tel" class="form-control" id="subject"  required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                          Please Enter subject
+                        </div>
+                      </div>
+                      
+                      <div class="col-md-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea type="" class="form-control" id="course"  required></textarea>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                          Please enter a message
+                        </div>
+                      </div>
+                      
+                      <div class="col-12">
+                        <button class="btn btn-info btn-xl" type="submit">Send Message</button>
+                      </div>
+                    </form>
+                </div>
+  
+                <div class="col-md-6" style="background-color: white; padding: 20px;">
+  
+                    <h4 class="mt-5">CONTACT ADDRESS</h4>
+  
+                    <strong>
+                        <p>San Francisco, CA</p>
+                        <p>hello@tom.com</p>
+                        <p>tomsaulnier@gmail.com</p><br>
+                        <p>Thiruvananthapuram</p>
+                        <p>Pin:695028</p>
+                    </strong>
+  
+                </div>
+  
+                <div class="col-md-12 text-center" style="background-color: white; padding: 20px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67437.06101795267!2d76.32288991549413!3d10.115802441020136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080882748f4a6f%3A0x30b2ebe45d968458!2sCochin%20International%20Airport!5e0!3m2!1sen!2sin!4v1698980290409!5m2!1sen!2sin" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  
+    <!--  -->
+    <!--  -->
+    <footer class="footer mt-3"  style="background-color: black;">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+      <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+        <div class="d-flex justify-content-center mb-4 mt-5">
+          <a class="btn btn-circle btn-outline-info me-1 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-circle btn-outline-danger me-1 rounded-circle" href=""><i class="fa-brands fa-instagram"></i></a>
+          <a class="btn btn-circle btn-outline-info me-1 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-circle btn-outline-danger me-1 rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+          <a class="btn btn-circle btn-outline-info me-0 rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p style="color: white;">Copyright © 2023  All Right Reserved</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer>
+      
+    <!--  -->
+
+    <script>
+      (() => {
+  'use strict'
+
+ 
+  const forms = document.querySelectorAll('.needs-validation')
+
+  
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
